@@ -1,0 +1,99 @@
+/* Header Styles */
+header {
+    background-color: #66b970be; 
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f9fcfbd4;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #66b970be;
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Contacts and About */
+
+.contact{
+    color: white;
+    font-size: 35px;
+    background-color: #33333381;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 20px; 
+    margin-top: 30px;
+}
+
+.profiles {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #33333381;
+    margin-left: 10px;
+    vertical-align: middle;
+    display: inline-block; 
+    line-height: normal; 
+    margin-top: 30px;
+}
+
+.about_h2{
+    background-color: #3333334c;
+    color: white;
+    font-size: 35px;
+}
+
+.about_p {
+    background-color: #3333334c;
+    color: white;
+    font-size: 25px;
+}
+
+.about_p a{
+    color: white;
+}
+
+/* Home */
+
+body{
+    background-image: url(/images/5386360.jpg);
+    background-size: cover;
+}
