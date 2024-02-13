@@ -1,8 +1,19 @@
 <%- include ("partials/header.ejs") %>
+<body>
 
+    <div class="container">
+        <% if (imageUrl) { %>
+            <img src="<%= imageUrl %>" alt="Forest Wallpaper" class="Walpapper" onerror="this.src='/images/notFound.png'">
+        <% } %>
+    </div>
 
+    <div class="container">
+        <form action="/forest-wallpaper" method="POST">
+            <button type="submit" class="get-button" >Generate</button>
+        </form>
+    </div>
 
-
-
-
+</body>
 <%- include ("partials/footer.ejs") %>
+
+
